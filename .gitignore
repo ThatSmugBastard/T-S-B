@@ -1,0 +1,8 @@
+.data
+public_html/*
+!public_html/wp-content
+public_html/wp-content/plugins
+public_html/wp-content/uploads
+public_html/wp-content/themes/twentyfifteen
+public_html/wp-content/themes/twentyseventeen
+public_html/wp-content/themes/twentysixteen
