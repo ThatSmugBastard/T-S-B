@@ -18,3 +18,7 @@ add_action('wp_enqueue_scripts', function () {
 	wp_enqueue_style( 'theme', get_template_directory_uri() . '/style.css', false, null );
 	wp_enqueue_script( 'theme-js', get_template_directory_uri() . '/script.js', [ 'jquery' ], null, true );
 }, 100);
+
+add_action( 'after_setup_theme', function () {
+    add_theme_support( 'post-thumbnails' );
+});

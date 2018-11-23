@@ -2,3 +2,156 @@
 Theme Name: WordPress Template
 Author: The Farm
 */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.background {
+    background-image: url("Background-Red.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.buttons {
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+.Txex {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    font-family: "Impact", cursive;
+    text-align: center;
+    
+}
+.Txex img{
+    height: 80px;
+    width: 200px;
+}
+.Txex h2{
+    color: white;
+    text-shadow: 0px 0px 10px black;
+}
+.Txex h3{
+    color: white;
+    text-shadow: 0px 0px 10px black;
+}
+ p{
+    color: white;
+    text-shadow: 0px 0px 10px black;
+}
+p a{
+    color:white;
+}
+li a{
+    color:white;
+}
+.ndtext {
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.ndtext h2{
+    color: white;
+    text-shadow: 0px 0px 10px black;
+}
+.webtype {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    padding: 0;
+}
+.webtype ul{
+    list-style-type: none;
+    font-size: 125%;
+    color: black;
+}
+.webtype li{
+    display: inline-block;
+}
+.wrapper{
+    width: 1300px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.post {
+    background-color: #f2f2f2;
+    display: inline-block;
+    width: 21%;
+    font-family: Impact;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.post img {
+    width: 100%;
+}
+.post h1 {
+    color: white;
+    font-size: 100%;
+    text-shadow:2px 2px 4px black;
+}
+.post p {
+    font-size: 90%;
+    text-shadow: 2px 2px 4px black;
+}
+.post a {
+    color: white;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 75%
+}
+.logoimg {
+    text-align: center;
+}
+.logoimg img{
+    
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+}
+.yamato {
+    background-color: #ff944d;
+    padding: 30px 0px;
+    margin-top: 60px;
+    font-family: Impact;
+    color: white;
+    font-weight: 1000;
+    text-align: center;
+    
+}
+.yamato h4 a{
+    font-size: 100%;
+    color:white;
+}
+.yamato p{
+    color: white;
+    text-shadow: none;
+}
+.footer {
+    padding: 20px;
+    font-family: Impact;
+    bottom: 0;
+    width: 100%;
+    background-color: #262626;
+    color: white;
+    text-align: right;
+}
+.footer a{
+    display: block;
+    text-align: left;
+    margin-left: 40px;
+}
+.footer p{
+    text-align: left;
+    margin-left: 40px;
+}
+.footer img{
+    width: 200px;
+    height: 200px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    text-align: right;
+}
