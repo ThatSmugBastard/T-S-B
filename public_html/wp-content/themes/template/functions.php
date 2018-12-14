@@ -15,10 +15,39 @@ remove_action( 'wp_head', 'wp_shortlink_wp_head', 10, 0 ); // Remove rel=shortli
 
 // Theme assets
 add_action('wp_enqueue_scripts', function () {
-	wp_enqueue_style( 'theme', get_template_directory_uri() . '/style.css', false, null );
+  wp_enqueue_style( 'theme', get_template_directory_uri() . '/style.css', false, null );
+  wp_enqueue_style( 'jpfotcss', get_template_directory_uri() . '/JPStyle.css', false, null );
+  wp_enqueue_style( 'slick', get_template_directory_uri() . '/slick/slick.css', false, null );
+  wp_enqueue_style( 'slick-theme', get_template_directory_uri() . '/slick/slick-theme.css', false, null );
+  wp_enqueue_script( 'slick', get_template_directory_uri() . '/slick/slick.js', [ 'jquery' ],  null, true );
 	wp_enqueue_script( 'theme-js', get_template_directory_uri() . '/script.js', [ 'jquery' ], null, true );
 }, 100);
 
 add_action( 'after_setup_theme', function () {
     add_theme_support( 'post-thumbnails' );
 });
+function create_post_type() {
+    register_post_type( 'employee',
+      array(
+        'labels' => array(
+          'name' => ( 'Employees' ),
+          'singular_name' => ( 'Employee' )
+        ),
+        'public' => true,
+        'has_archive' => true,
+      ));
+
+    register_post_type( 'service',
+      array(
+      'labels' => array(
+        'name' => ( 'Services' ),
+        'singular_name' => ( 'Service' )
+      ),
+      'public' => true,
+      'has_archive' => true,
+    ));
+  }
+  
+  add_action( 'init', 'create_post_type' );
+  
+ 

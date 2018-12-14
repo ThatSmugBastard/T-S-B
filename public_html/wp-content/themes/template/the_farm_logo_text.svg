@@ -2,10 +2,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" width="500" height="188">
   <style>
     .primary-color {
-      fill: #FFFFFF;
+      fill: #b3ffda;
     }
     .grey-color {
-      fill: #C80000;
+      fill: #737373;
     }
   </style>
   <g fill="none" fill-rule="evenodd">

@@ -1,0 +1,93 @@
+.JPbackground{
+	background-color: darkgreen;
+	background-repeat: none;
+}
+.JPlogo{
+    background-repeat: none;
+    background-color: white;
+    text-align: center;
+    height: 200px;
+    margin-top: 10px;
+}
+.JPlogo img{
+    text-align: center;
+    height: 120px;
+    width: 200px;
+    background-color: white
+
+}
+.JPtext{
+    text-align: center;
+}
+.JPtext h3{
+    color: white;
+}
+.JPtext p{
+	color: white;
+}
+.JPwebtype {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.JPwebtype ul{
+    list-style-type: none;
+    font-size: 125%;
+    color: black;
+}
+.JPwebtype li a{
+    color:black;
+}
+.JPwebtype li{
+    display: inline-block;
+}
+.JPpostwrap{
+    background-color: darkslategrey;
+    width: 100%;
+    padding-top: auto;
+    padding-bottom: auto;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.JPpostdonk{
+    width: 1300px;
+    margin: auto;
+
+}
+.JPpostdonk h1{
+    color: darkgreen;
+}
+.JPpostdonk p{
+    color:black;
+}
+.JPfooter {
+    padding-top: 10px;
+    font-family: Sans-Serif;
+    bottom: 0;
+    width: 100%;
+    background-color: #262626;
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+.JPfooter span{
+    font-weight: bold;
+}
+.JPfooter a{
+    display: block;
+    font-family: Times New Roman;
+}
+.JPfooter p{
+    text-align: center;
+    margin-left: 40px;
+    display: inline-block;
+}
+.JPfooter img{
+    text-align: center;
+    background: #262626;
+    width: 150px;
+    height: 100px;
+    margin-bottom: 40px;
+}
